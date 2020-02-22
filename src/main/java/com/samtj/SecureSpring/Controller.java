@@ -4,6 +4,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+// Controller
+
 @Configuration
 public class Controller implements WebMvcConfigurer {
     public void addViewControllers(ViewControllerRegistry registry) {
